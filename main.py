@@ -14,6 +14,9 @@ while True:
         break
     elif (order in orderDict):
         total += orderDict[order]
+    elif (order not in orderDict):
+        print("Please Enter a Valid Menu Item")
+        continue
     orderList.append(order)
     print(f"You added {order} to your cart.")
 print("Your final order is: ")
