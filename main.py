@@ -1,6 +1,7 @@
 print("Hello, Welcome to the Flower Child Chatbot!")
 name = input("What is your name? ")
-print(f"Welcome {name} to Flower Child!")
+age = input("What is your age? ")
+print(f"Welcome {name} (age {age}) to Flower Child!")
 orderList = []
 orderDict = {"tomato" : 5.99, "chicken" : 10.99, "onion" : 3.99}
 total = 0
